@@ -208,6 +208,7 @@ img {
   flex-direction: column;
   gap: 8px;
   height: 224px;
+  
 }
 .icon-images {
   display: flex;
@@ -304,6 +305,9 @@ fill: #f4f4fd;
   background-color: #404bbf;
 }
 
+.social-icon-svg {
+
+}
 .portfolio {
   padding: 120px 0 120px 0;
 }
@@ -372,6 +376,7 @@ fill: #f4f4fd;
 }
 .footer-container { 
 display: flex;
+align-items: baseline
 }
 .footer-info {
   max-width: 264px;
@@ -387,6 +392,7 @@ display: flex;
   color: #4d5ae5;
   display: inline-block; 
   margin-bottom: 16px;
+  
 }
 .logo-part-footer {
   color: #f4f4fd;
@@ -404,7 +410,6 @@ display: flex;
 }
 .social-networks-footer {
   display: flex;
-  flex direction: column;
   text-align: center;
   gap: 8px;
   align-items: baseline;
@@ -442,9 +447,10 @@ border-radius: 50%;
 background-color: #4d5ae5;
 }
 
-.social-networks-link-footer:hover .social-networks-link-footer: :focus {
+.social-networks-link-footer:hover, .social-networks-link-footer: :focus {
   background-color: #31d0aa; 
 }
+
 .icon-footer-fill {
   fill:#f4f4fd;
 }
