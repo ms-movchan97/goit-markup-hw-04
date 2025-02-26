@@ -446,7 +446,7 @@ border-radius: 50%;
 background-color: #4d5ae5;
 }
 
-.social-networks-link-footer:hover, .social-networks-link-footer: :focus {
+.social-networks-link-footer:hover, .social-networks-link-footer:focus {
   background-color: #31d0aa; 
 }
 
