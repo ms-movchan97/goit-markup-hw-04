@@ -167,7 +167,7 @@ img {
 }
 
 .section-features {
-  padding: 120px 0
+  padding: 120px 0;
 }
 .future-container {
   height: 112px; 
@@ -202,12 +202,11 @@ img {
 }
 .future-item {
   width: calc((100% - 48px) / 3);
-  display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
   gap: 8px;
-  height: 224px;
+  
   
 }
 .icon-images {
