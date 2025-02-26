@@ -366,7 +366,6 @@ fill: #f4f4fd;
 }
 .footer-container { 
 display: flex;
-align-items: baseline;
 }
 .footer-info {
   max-width: 264px;
@@ -402,7 +401,8 @@ align-items: baseline;
   flex direction: column;
   text-align: center;
   gap: 8px;
-  
+  align-items: baseline;
+  flex-direction: column;
 
 }
 .social-networks-footer-item {
@@ -420,7 +420,6 @@ margin-bottom: 16px;
  list-style: none;
  padding: 0;
  margin: 0;
-  
 
 }
 
